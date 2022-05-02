@@ -83,19 +83,18 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Добро пожаловать на сайт с <b>Домашним заданием</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
+        <b>У нас новый сайт!!!</b>
+        <br />      </p>
+         <p>         Чтобы узнать домашние задание:      </p>
+
+      <p>1.Выберите неделю(текущую или следующую)      </p>
+
+      <p>2.Выберите день недели(понедельник-пятница)      </p>
+
+      <p>3.Нажмите кнопку "Посмотреть"      </p>     
     </div>
     <ul className={styles.list}>
       {links.map(link => (
