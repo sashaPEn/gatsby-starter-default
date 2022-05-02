@@ -124,7 +124,7 @@ const IndexPage = () => (
 
 
 	.closebtn {
-    margin-left: 15px;
+    margin-left: 15px;}
     color: white;
     font-weight: bold;
     float: right;
