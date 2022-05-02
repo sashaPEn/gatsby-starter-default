@@ -121,12 +121,9 @@ const IndexPage = () => (
 <input  type="button" onclick="f1()" value="Посмотреть" class="homework_button"> 
 
 <style>
-.alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
-}
-.closebtn {
+
+
+	.closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
