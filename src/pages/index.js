@@ -119,13 +119,7 @@ const IndexPage = () => (
       </select> 
 	</form>
 <input  type="button" onclick="f1()" value="Посмотреть" class="homework_button"> 
-  <br>
 
-function f1(){
-var a=document.getElementById('sa1').value;
-alert(a);
-}
-</br>
 <style>
 .alert {
     padding: 20px;
