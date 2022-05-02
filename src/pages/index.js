@@ -6,7 +6,39 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
+const samplePageLinks = [
+  {
+    text: "Page 2",
+    url: "page-2",
+    badge: false,
+    description:
+      "A simple example of linking to another page within a Gatsby site",
+  },
+  { text: "TypeScript", url: "using-typescript" },
+  { text: "Server Side Rendering", url: "using-ssr" },
+  { text: "Deferred Static Generation", url: "using-dsg" },
+]
 
+const moreLinks = [
+  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+  {
+    text: "Documentation",
+    url: "https://gatsbyjs.com/docs/?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter",
+  },
+  {
+    text: "Starters",
+    url: "https://gatsbyjs.com/starters/?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter",
+  },
+  {
+    text: "Showcase",
+    url: "https://gatsbyjs.com/showcase/?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter",
+  },
+  {
+    text: "Contributing",
+    url: "https://www.gatsbyjs.com/contributing/?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter",
+  },
+  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
+]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
