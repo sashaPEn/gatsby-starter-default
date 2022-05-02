@@ -100,7 +100,7 @@ const IndexPage = () => (
       <p>2.Выберите день недели(понедельник-пятница)      </p>
 
       <p>3.Нажмите кнопку "Посмотреть"      </p>     
-    </div>
+
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
