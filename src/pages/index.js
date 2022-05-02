@@ -92,7 +92,8 @@ const IndexPage = () => (
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
         <b>У нас новый сайт!!!</b>
-        <br />      </p>
+</div>        
+<br />      </p>
          <p>         Чтобы узнать домашние задание:      </p>
 
       <p>1.Выберите неделю(текущую или следующую)      </p>
