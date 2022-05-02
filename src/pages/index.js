@@ -120,64 +120,7 @@ const IndexPage = () => (
 	</form>
 <input  type="button" onclick="f1()" value="Посмотреть" class="homework_button"> 
 
-<style>
 
-
-	.closebtn {
-    margin-left: 15px;}
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.closebtn:hover {
-    color: black;
-}
-</style>
-<style>
-.homework_button{
-    height:50px;
-    width:400px;
-    background-color: #FFFFFF;
-   border: 1px solid #CCCCCC;
-   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-   transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
-       border-radius: 4px;
-   color: #555555;
-   display:block;
-       width:400px;
-       margin: 20px auto;
-   font-size: 14px;
-       text-align:center;
-   height: 50px;
-   line-height: 20px;
-   margin-bottom: 10px;
-   padding: 4px 6px;
-   vertical-align: middle;
-       text-decoration:none;
-}
-.homework_button:hover, .homework_button:focus {
-   border-color: rgba(82, 168, 236, 0.8);
-   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
-   outline: 0 none;
-}
-.homework_menu{
-    height:50px;
-    width:400px;
-}
-</style>
-<style>
-.Homework{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.homework_menu{
-    height:50px;
-    width:400px;
-}
-</style>
   </Layout>
 )
 export default IndexPage
